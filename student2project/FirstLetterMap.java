@@ -18,7 +18,7 @@ public class FirstLetterMap
       {
 
          // Create your map here
-        
+         Map<Character, Set<String>> map = new TreeMap<>();
 
          while (in.hasNext())
          {
@@ -46,6 +46,11 @@ public class FirstLetterMap
 
          // Print the map here in this form
          // a: [a, able, aardvark]
+         Set<Character> keySet = map.keySet();
+         for (Character key : keySet)
+         {
+             System.out.println("" + key + " : " + map.get(key));
+            }
         
       }
       catch (FileNotFoundException e)
