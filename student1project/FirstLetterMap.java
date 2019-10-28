@@ -18,7 +18,6 @@ public class FirstLetterMap
       {
 
          // Create your map here
-         ...
 
          while (in.hasNext())
          {
@@ -27,13 +26,11 @@ public class FirstLetterMap
 
             // Update the map here
             // Use the Java 8 merge method
-            . . .
 
          }
 
          // Print the map here in this form
          // a: [a, able, aardvark]
-         . . .
       }
       catch (FileNotFoundException e)
       {
