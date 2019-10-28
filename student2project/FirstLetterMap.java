@@ -27,8 +27,20 @@ public class FirstLetterMap
 
             // Update the map here
             // Modify Worked Example 15.1
-           
-
+            
+            Set<String> current = map.get(c);
+            if (current != null)
+            {
+                current.add(word);
+            }
+            else
+            {
+                current = new TreeSet<>();
+                current.add(word);
+            }
+            
+     
+            map.put(c, current); 
 
          }
 
