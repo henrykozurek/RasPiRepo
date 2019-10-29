@@ -12,7 +12,7 @@ public class FirstLetterMap
 {
    public static void main(String[] args)
    {
-      String filename = "test1.txt";
+      String filename = "test2.txt";
 
       try (Scanner in = new Scanner(new File(filename)))
       {
